@@ -22,6 +22,10 @@
 		EA467A092305CAEB00465FC1 /* RM_iOS_Core.h in Headers */ = {isa = PBXBuildFile; fileRef = EA4679F92305CAEB00465FC1 /* RM_iOS_Core.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		EA467A0C2305CAEB00465FC1 /* RM_iOS_Core.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA4679F72305CAEB00465FC1 /* RM_iOS_Core.framework */; };
 		EA467A0D2305CAEB00465FC1 /* RM_iOS_Core.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = EA4679F72305CAEB00465FC1 /* RM_iOS_Core.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		EA467A162305CCBD00465FC1 /* CocapodStarter.txt in Resources */ = {isa = PBXBuildFile; fileRef = EA467A152305CCBD00465FC1 /* CocapodStarter.txt */; };
+		EA467A192305CD3200465FC1 /* RM.iOS.Core.podspec in Resources */ = {isa = PBXBuildFile; fileRef = EA467A172305CD3100465FC1 /* RM.iOS.Core.podspec */; };
+		EA467A1A2305CD3200465FC1 /* RM.iOS.UI.podspec in Resources */ = {isa = PBXBuildFile; fileRef = EA467A182305CD3100465FC1 /* RM.iOS.UI.podspec */; };
+		EA467A1D2305CD8300465FC1 /* CustomView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA467A1C2305CD8300465FC1 /* CustomView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -109,6 +113,10 @@
 		EA4679FF2305CAEB00465FC1 /* RM.iOS.CoreTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RM.iOS.CoreTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EA467A062305CAEB00465FC1 /* RM_iOS_CoreTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RM_iOS_CoreTests.swift; sourceTree = "<group>"; };
 		EA467A082305CAEB00465FC1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EA467A152305CCBD00465FC1 /* CocapodStarter.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = CocapodStarter.txt; sourceTree = "<group>"; };
+		EA467A172305CD3100465FC1 /* RM.iOS.Core.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = RM.iOS.Core.podspec; sourceTree = "<group>"; };
+		EA467A182305CD3100465FC1 /* RM.iOS.UI.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = RM.iOS.UI.podspec; sourceTree = "<group>"; };
+		EA467A1C2305CD8300465FC1 /* CustomView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -170,6 +178,9 @@
 		EA46799C2305CA9300465FC1 = {
 			isa = PBXGroup;
 			children = (
+				EA467A172305CD3100465FC1 /* RM.iOS.Core.podspec */,
+				EA467A182305CD3100465FC1 /* RM.iOS.UI.podspec */,
+				EA467A152305CCBD00465FC1 /* CocapodStarter.txt */,
 				EA4679A82305CA9300465FC1 /* RM.iOS.UI */,
 				EA4679B32305CA9300465FC1 /* RM.iOS.UITests */,
 				EA4679C52305CAB900465FC1 /* Sample */,
@@ -198,6 +209,7 @@
 		EA4679A82305CA9300465FC1 /* RM.iOS.UI */ = {
 			isa = PBXGroup;
 			children = (
+				EA467A1B2305CD6200465FC1 /* CustomViews */,
 				EA4679A92305CA9300465FC1 /* RM_iOS_UI.h */,
 				EA4679AA2305CA9300465FC1 /* Info.plist */,
 			);
@@ -260,6 +272,14 @@
 				EA467A082305CAEB00465FC1 /* Info.plist */,
 			);
 			path = RM.iOS.CoreTests;
+			sourceTree = "<group>";
+		};
+		EA467A1B2305CD6200465FC1 /* CustomViews */ = {
+			isa = PBXGroup;
+			children = (
+				EA467A1C2305CD8300465FC1 /* CustomView.swift */,
+			);
+			path = CustomViews;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -424,6 +444,7 @@
 				TargetAttributes = {
 					EA4679A52305CA9300465FC1 = {
 						CreatedOnToolsVersion = 10.3;
+						LastSwiftMigration = 1030;
 					};
 					EA4679AE2305CA9300465FC1 = {
 						CreatedOnToolsVersion = 10.3;
@@ -477,6 +498,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EA467A1A2305CD3200465FC1 /* RM.iOS.UI.podspec in Resources */,
+				EA467A192305CD3200465FC1 /* RM.iOS.Core.podspec in Resources */,
+				EA467A162305CCBD00465FC1 /* CocapodStarter.txt in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -532,6 +556,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EA467A1D2305CD8300465FC1 /* CustomView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -763,6 +788,7 @@
 		EA4679BB2305CA9300465FC1 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
@@ -779,6 +805,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.ruchiram.RM-iOS-UI";
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -787,6 +814,7 @@
 		EA4679BC2305CA9300465FC1 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
@@ -811,6 +839,7 @@
 		EA4679BE2305CA9300465FC1 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = RM.iOS.UITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -828,6 +857,7 @@
 		EA4679BF2305CA9300465FC1 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = RM.iOS.UITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (

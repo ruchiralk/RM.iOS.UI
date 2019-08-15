@@ -1,0 +1,11 @@
+1. Create iOS Framework Project
+
+2. pod spec create RM.iOS.UI
+
+3. git push -u origin master --tags
+
+// push to pod repo
+
+4. pod repo add RM.iOS.UI https://github.com/ruchiralk/RM.iOS.UIKit.git
+
+5. pod repo push RM.iOS.UI.podspec
