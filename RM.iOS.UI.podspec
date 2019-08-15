@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "RM.iOS.UI"
-  spec.version      = "0.0.11"
+  spec.version      = "0.0.12"
   spec.summary      = "Reusable UIKit Components."
 
   # This description is used to generate tags and improve search results.
@@ -134,5 +134,8 @@ Pod::Spec.new do |spec|
 
   # spec.xcconfig = { "HEADER_SEARCH_PATHS" => "$(SDKROOT)/usr/include/libxml2" }
   # spec.dependency "JSONKit", "~> 1.4"
+  spec.dependency 'RxSwift', '~> 5'
+  spec.dependency 'RxCocoa', '~> 5'
+  spec.dependency 'SnapKit', '~> 5.0.0'
 
 end

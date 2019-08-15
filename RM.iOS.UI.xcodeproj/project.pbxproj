@@ -7,6 +7,23 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		EA3C4F762305DAD7005DDEC8 /* RMGradientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA3C4F722305DAD7005DDEC8 /* RMGradientView.swift */; };
+		EA3C4F772305DAD7005DDEC8 /* RMDataEntryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA3C4F732305DAD7005DDEC8 /* RMDataEntryView.swift */; };
+		EA3C4F782305DAD7005DDEC8 /* RMShadowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA3C4F742305DAD7005DDEC8 /* RMShadowView.swift */; };
+		EA3C4F792305DAD7005DDEC8 /* RMICNLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA3C4F752305DAD7005DDEC8 /* RMICNLabel.swift */; };
+		EA3C4F7F2305DAE4005DDEC8 /* RMCardTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA3C4F7C2305DAE4005DDEC8 /* RMCardTableViewCell.swift */; };
+		EA3C4F802305DAE4005DDEC8 /* RMTextLabelCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA3C4F7E2305DAE4005DDEC8 /* RMTextLabelCollectionViewCell.swift */; };
+		EA3C4F832305DAF2005DDEC8 /* KeyboardObservable.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA3C4F822305DAF2005DDEC8 /* KeyboardObservable.swift */; };
+		EA3C4F862305DAFC005DDEC8 /* RMFormViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA3C4F852305DAFC005DDEC8 /* RMFormViewController.swift */; };
+		EA3C4F8B2305DB05005DDEC8 /* RMDatePickerControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA3C4F882305DB05005DDEC8 /* RMDatePickerControl.swift */; };
+		EA3C4F8C2305DB05005DDEC8 /* RMDatePickerCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA3C4F892305DB05005DDEC8 /* RMDatePickerCollectionViewCell.swift */; };
+		EA3C4F8D2305DB05005DDEC8 /* RMDatePickerControlViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA3C4F8A2305DB05005DDEC8 /* RMDatePickerControlViewModel.swift */; };
+		EA3C4F902305DB0E005DDEC8 /* UIView+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA3C4F8F2305DB0E005DDEC8 /* UIView+Extensions.swift */; };
+		EA3C4F972305DB16005DDEC8 /* DrawerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA3C4F922305DB16005DDEC8 /* DrawerViewController.swift */; };
+		EA3C4F982305DB16005DDEC8 /* DrawerMenuHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA3C4F932305DB16005DDEC8 /* DrawerMenuHeaderView.swift */; };
+		EA3C4F992305DB16005DDEC8 /* DrawerContent.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA3C4F942305DB16005DDEC8 /* DrawerContent.swift */; };
+		EA3C4F9A2305DB16005DDEC8 /* DrawerMenuItemCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA3C4F952305DB16005DDEC8 /* DrawerMenuItemCell.swift */; };
+		EA3C4F9B2305DB16005DDEC8 /* DrawerMenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA3C4F962305DB16005DDEC8 /* DrawerMenuViewController.swift */; };
 		EA4679B02305CA9300465FC1 /* RM_iOS_UI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA4679A62305CA9300465FC1 /* RM_iOS_UI.framework */; };
 		EA4679B52305CA9300465FC1 /* RM_iOS_UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA4679B42305CA9300465FC1 /* RM_iOS_UITests.swift */; };
 		EA4679B72305CA9300465FC1 /* RM_iOS_UI.h in Headers */ = {isa = PBXBuildFile; fileRef = EA4679A92305CA9300465FC1 /* RM_iOS_UI.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -88,6 +105,23 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		EA3C4F722305DAD7005DDEC8 /* RMGradientView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RMGradientView.swift; sourceTree = "<group>"; };
+		EA3C4F732305DAD7005DDEC8 /* RMDataEntryView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RMDataEntryView.swift; sourceTree = "<group>"; };
+		EA3C4F742305DAD7005DDEC8 /* RMShadowView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RMShadowView.swift; sourceTree = "<group>"; };
+		EA3C4F752305DAD7005DDEC8 /* RMICNLabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RMICNLabel.swift; sourceTree = "<group>"; };
+		EA3C4F7C2305DAE4005DDEC8 /* RMCardTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RMCardTableViewCell.swift; sourceTree = "<group>"; };
+		EA3C4F7E2305DAE4005DDEC8 /* RMTextLabelCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RMTextLabelCollectionViewCell.swift; sourceTree = "<group>"; };
+		EA3C4F822305DAF2005DDEC8 /* KeyboardObservable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KeyboardObservable.swift; sourceTree = "<group>"; };
+		EA3C4F852305DAFC005DDEC8 /* RMFormViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RMFormViewController.swift; sourceTree = "<group>"; };
+		EA3C4F882305DB05005DDEC8 /* RMDatePickerControl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RMDatePickerControl.swift; sourceTree = "<group>"; };
+		EA3C4F892305DB05005DDEC8 /* RMDatePickerCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RMDatePickerCollectionViewCell.swift; sourceTree = "<group>"; };
+		EA3C4F8A2305DB05005DDEC8 /* RMDatePickerControlViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RMDatePickerControlViewModel.swift; sourceTree = "<group>"; };
+		EA3C4F8F2305DB0E005DDEC8 /* UIView+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+Extensions.swift"; sourceTree = "<group>"; };
+		EA3C4F922305DB16005DDEC8 /* DrawerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DrawerViewController.swift; sourceTree = "<group>"; };
+		EA3C4F932305DB16005DDEC8 /* DrawerMenuHeaderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DrawerMenuHeaderView.swift; sourceTree = "<group>"; };
+		EA3C4F942305DB16005DDEC8 /* DrawerContent.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DrawerContent.swift; sourceTree = "<group>"; };
+		EA3C4F952305DB16005DDEC8 /* DrawerMenuItemCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DrawerMenuItemCell.swift; sourceTree = "<group>"; };
+		EA3C4F962305DB16005DDEC8 /* DrawerMenuViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DrawerMenuViewController.swift; sourceTree = "<group>"; };
 		EA4679A62305CA9300465FC1 /* RM_iOS_UI.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = RM_iOS_UI.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		EA4679A92305CA9300465FC1 /* RM_iOS_UI.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RM_iOS_UI.h; sourceTree = "<group>"; };
 		EA4679AA2305CA9300465FC1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -175,6 +209,77 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		EA3C4F7A2305DAE4005DDEC8 /* CustomCell */ = {
+			isa = PBXGroup;
+			children = (
+				EA3C4F7B2305DAE4005DDEC8 /* TableView */,
+				EA3C4F7D2305DAE4005DDEC8 /* CollectionView */,
+			);
+			path = CustomCell;
+			sourceTree = "<group>";
+		};
+		EA3C4F7B2305DAE4005DDEC8 /* TableView */ = {
+			isa = PBXGroup;
+			children = (
+				EA3C4F7C2305DAE4005DDEC8 /* RMCardTableViewCell.swift */,
+			);
+			path = TableView;
+			sourceTree = "<group>";
+		};
+		EA3C4F7D2305DAE4005DDEC8 /* CollectionView */ = {
+			isa = PBXGroup;
+			children = (
+				EA3C4F7E2305DAE4005DDEC8 /* RMTextLabelCollectionViewCell.swift */,
+			);
+			path = CollectionView;
+			sourceTree = "<group>";
+		};
+		EA3C4F812305DAF2005DDEC8 /* CustomObservables */ = {
+			isa = PBXGroup;
+			children = (
+				EA3C4F822305DAF2005DDEC8 /* KeyboardObservable.swift */,
+			);
+			path = CustomObservables;
+			sourceTree = "<group>";
+		};
+		EA3C4F842305DAFC005DDEC8 /* DataEntryForm */ = {
+			isa = PBXGroup;
+			children = (
+				EA3C4F852305DAFC005DDEC8 /* RMFormViewController.swift */,
+			);
+			path = DataEntryForm;
+			sourceTree = "<group>";
+		};
+		EA3C4F872305DB05005DDEC8 /* DateFilterControl */ = {
+			isa = PBXGroup;
+			children = (
+				EA3C4F882305DB05005DDEC8 /* RMDatePickerControl.swift */,
+				EA3C4F892305DB05005DDEC8 /* RMDatePickerCollectionViewCell.swift */,
+				EA3C4F8A2305DB05005DDEC8 /* RMDatePickerControlViewModel.swift */,
+			);
+			path = DateFilterControl;
+			sourceTree = "<group>";
+		};
+		EA3C4F8E2305DB0E005DDEC8 /* Extenstions */ = {
+			isa = PBXGroup;
+			children = (
+				EA3C4F8F2305DB0E005DDEC8 /* UIView+Extensions.swift */,
+			);
+			path = Extenstions;
+			sourceTree = "<group>";
+		};
+		EA3C4F912305DB16005DDEC8 /* NavigationDrawer */ = {
+			isa = PBXGroup;
+			children = (
+				EA3C4F922305DB16005DDEC8 /* DrawerViewController.swift */,
+				EA3C4F932305DB16005DDEC8 /* DrawerMenuHeaderView.swift */,
+				EA3C4F942305DB16005DDEC8 /* DrawerContent.swift */,
+				EA3C4F952305DB16005DDEC8 /* DrawerMenuItemCell.swift */,
+				EA3C4F962305DB16005DDEC8 /* DrawerMenuViewController.swift */,
+			);
+			path = NavigationDrawer;
+			sourceTree = "<group>";
+		};
 		EA46799C2305CA9300465FC1 = {
 			isa = PBXGroup;
 			children = (
@@ -209,6 +314,12 @@
 		EA4679A82305CA9300465FC1 /* RM.iOS.UI */ = {
 			isa = PBXGroup;
 			children = (
+				EA3C4F912305DB16005DDEC8 /* NavigationDrawer */,
+				EA3C4F8E2305DB0E005DDEC8 /* Extenstions */,
+				EA3C4F872305DB05005DDEC8 /* DateFilterControl */,
+				EA3C4F842305DAFC005DDEC8 /* DataEntryForm */,
+				EA3C4F812305DAF2005DDEC8 /* CustomObservables */,
+				EA3C4F7A2305DAE4005DDEC8 /* CustomCell */,
 				EA467A1B2305CD6200465FC1 /* CustomViews */,
 				EA4679A92305CA9300465FC1 /* RM_iOS_UI.h */,
 				EA4679AA2305CA9300465FC1 /* Info.plist */,
@@ -277,6 +388,10 @@
 		EA467A1B2305CD6200465FC1 /* CustomViews */ = {
 			isa = PBXGroup;
 			children = (
+				EA3C4F732305DAD7005DDEC8 /* RMDataEntryView.swift */,
+				EA3C4F722305DAD7005DDEC8 /* RMGradientView.swift */,
+				EA3C4F752305DAD7005DDEC8 /* RMICNLabel.swift */,
+				EA3C4F742305DAD7005DDEC8 /* RMShadowView.swift */,
 				EA467A1C2305CD8300465FC1 /* CustomView.swift */,
 			);
 			path = CustomViews;
@@ -556,7 +671,24 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EA3C4F792305DAD7005DDEC8 /* RMICNLabel.swift in Sources */,
+				EA3C4F832305DAF2005DDEC8 /* KeyboardObservable.swift in Sources */,
+				EA3C4F802305DAE4005DDEC8 /* RMTextLabelCollectionViewCell.swift in Sources */,
+				EA3C4F982305DB16005DDEC8 /* DrawerMenuHeaderView.swift in Sources */,
 				EA467A1D2305CD8300465FC1 /* CustomView.swift in Sources */,
+				EA3C4F9A2305DB16005DDEC8 /* DrawerMenuItemCell.swift in Sources */,
+				EA3C4F782305DAD7005DDEC8 /* RMShadowView.swift in Sources */,
+				EA3C4F972305DB16005DDEC8 /* DrawerViewController.swift in Sources */,
+				EA3C4F9B2305DB16005DDEC8 /* DrawerMenuViewController.swift in Sources */,
+				EA3C4F902305DB0E005DDEC8 /* UIView+Extensions.swift in Sources */,
+				EA3C4F772305DAD7005DDEC8 /* RMDataEntryView.swift in Sources */,
+				EA3C4F8B2305DB05005DDEC8 /* RMDatePickerControl.swift in Sources */,
+				EA3C4F7F2305DAE4005DDEC8 /* RMCardTableViewCell.swift in Sources */,
+				EA3C4F862305DAFC005DDEC8 /* RMFormViewController.swift in Sources */,
+				EA3C4F8D2305DB05005DDEC8 /* RMDatePickerControlViewModel.swift in Sources */,
+				EA3C4F8C2305DB05005DDEC8 /* RMDatePickerCollectionViewCell.swift in Sources */,
+				EA3C4F992305DB16005DDEC8 /* DrawerContent.swift in Sources */,
+				EA3C4F762305DAD7005DDEC8 /* RMGradientView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
