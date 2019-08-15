@@ -91,7 +91,7 @@ Pod::Spec.new do |spec|
   #  Not including the public_header_files will make all headers public.
   #
 
-  spec.source_files  = "RM.iOS.UI/**/**/*", "RM.iOS.UI/**/*.{h,m,swift}"
+  spec.source_files  = "RM.iOS.UI/**/**/*", "RM.iOS.UI/**/**/*.{h,m,swift}"
   spec.exclude_files = "RM.iOS.UI/Exclude"
 
   # spec.public_header_files = "Classes/**/*.h"
