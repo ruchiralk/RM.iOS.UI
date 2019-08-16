@@ -9,3 +9,5 @@
 4. pod repo add RM.iOS.UI https://github.com/ruchiralk/RM.iOS.UIKit.git
 
 5. pod repo push RM.iOS.UI.podspec
+
+6. remember to specifiy deployment_target 

@@ -10,7 +10,7 @@ import RxSwift
 import RxCocoa
 import UIKit
 
-class KeyboardObservable {
+public class KeyboardObservable {
     static func keyboardHeightChangeObservable() -> Observable<CGFloat> {
         return Observable
             .from([
