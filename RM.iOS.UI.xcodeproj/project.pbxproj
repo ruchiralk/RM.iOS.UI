@@ -42,6 +42,17 @@
 		EA3C4FBA2307180E005DDEC8 /* RxRelay.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = EA3C4FAC230716AA005DDEC8 /* RxRelay.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		EA3C4FBB2307180E005DDEC8 /* RxSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA3C4FAD230716AA005DDEC8 /* RxSwift.framework */; };
 		EA3C4FBC2307180E005DDEC8 /* RxSwift.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = EA3C4FAD230716AA005DDEC8 /* RxSwift.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		EA3C4FBE23079023005DDEC8 /* RMProductCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA3C4FBD23079023005DDEC8 /* RMProductCollectionViewCell.swift */; };
+		EA3C4FC0230794CD005DDEC8 /* RMBorderImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA3C4FBF230794CD005DDEC8 /* RMBorderImageView.swift */; };
+		EA3C4FC22307A8FA005DDEC8 /* RMShadowImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA3C4FC12307A8FA005DDEC8 /* RMShadowImageView.swift */; };
+		EA3C4FC62307F6AC005DDEC8 /* RMProductViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA3C4FC52307F6AC005DDEC8 /* RMProductViewController.swift */; };
+		EA3C4FC82307FDFB005DDEC8 /* RMCustomerProductViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA3C4FC72307FDFB005DDEC8 /* RMCustomerProductViewController.swift */; };
+		EA3C4FCA230807C0005DDEC8 /* RMSubtitleLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA3C4FC9230807C0005DDEC8 /* RMSubtitleLabel.swift */; };
+		EA3C4FCC2308137E005DDEC8 /* RMCustomerProductInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA3C4FCB2308137E005DDEC8 /* RMCustomerProductInfoView.swift */; };
+		EA3C4FCE230826B8005DDEC8 /* RMProductDescriptionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA3C4FCD230826B8005DDEC8 /* RMProductDescriptionView.swift */; };
+		EA3C4FD223083529005DDEC8 /* RMViewWithDashedBorder.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA3C4FD123083529005DDEC8 /* RMViewWithDashedBorder.swift */; };
+		EA3C4FD423083EDD005DDEC8 /* RMAvailableBidsCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA3C4FD323083EDD005DDEC8 /* RMAvailableBidsCollectionViewController.swift */; };
+		EA3C4FD623084DCF005DDEC8 /* RMItemValueCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA3C4FD523084DCF005DDEC8 /* RMItemValueCollectionViewCell.swift */; };
 		EA4679B02305CA9300465FC1 /* RM_iOS_UI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA4679A62305CA9300465FC1 /* RM_iOS_UI.framework */; };
 		EA4679B52305CA9300465FC1 /* RM_iOS_UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA4679B42305CA9300465FC1 /* RM_iOS_UITests.swift */; };
 		EA4679B72305CA9300465FC1 /* RM_iOS_UI.h in Headers */ = {isa = PBXBuildFile; fileRef = EA4679A92305CA9300465FC1 /* RM_iOS_UI.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -60,7 +71,6 @@
 		EA467A162305CCBD00465FC1 /* CocapodStarter.txt in Resources */ = {isa = PBXBuildFile; fileRef = EA467A152305CCBD00465FC1 /* CocapodStarter.txt */; };
 		EA467A192305CD3200465FC1 /* RM.iOS.Core.podspec in Resources */ = {isa = PBXBuildFile; fileRef = EA467A172305CD3100465FC1 /* RM.iOS.Core.podspec */; };
 		EA467A1A2305CD3200465FC1 /* RM.iOS.UI.podspec in Resources */ = {isa = PBXBuildFile; fileRef = EA467A182305CD3100465FC1 /* RM.iOS.UI.podspec */; };
-		EA467A1D2305CD8300465FC1 /* CustomView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA467A1C2305CD8300465FC1 /* CustomView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -160,6 +170,17 @@
 		EA3C4FAD230716AA005DDEC8 /* RxSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxSwift.framework; path = RM.iOS.UI/Carthage/Build/iOS/RxSwift.framework; sourceTree = SOURCE_ROOT; };
 		EA3C4FAE230716AA005DDEC8 /* RxCocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxCocoa.framework; path = RM.iOS.UI/Carthage/Build/iOS/RxCocoa.framework; sourceTree = SOURCE_ROOT; };
 		EA3C4FB2230717BA005DDEC8 /* SnapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SnapKit.framework; path = RM.iOS.UI/Carthage/Build/iOS/SnapKit.framework; sourceTree = SOURCE_ROOT; };
+		EA3C4FBD23079023005DDEC8 /* RMProductCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RMProductCollectionViewCell.swift; sourceTree = "<group>"; };
+		EA3C4FBF230794CD005DDEC8 /* RMBorderImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RMBorderImageView.swift; sourceTree = "<group>"; };
+		EA3C4FC12307A8FA005DDEC8 /* RMShadowImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RMShadowImageView.swift; sourceTree = "<group>"; };
+		EA3C4FC52307F6AC005DDEC8 /* RMProductViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RMProductViewController.swift; sourceTree = "<group>"; };
+		EA3C4FC72307FDFB005DDEC8 /* RMCustomerProductViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RMCustomerProductViewController.swift; sourceTree = "<group>"; };
+		EA3C4FC9230807C0005DDEC8 /* RMSubtitleLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RMSubtitleLabel.swift; sourceTree = "<group>"; };
+		EA3C4FCB2308137E005DDEC8 /* RMCustomerProductInfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RMCustomerProductInfoView.swift; sourceTree = "<group>"; };
+		EA3C4FCD230826B8005DDEC8 /* RMProductDescriptionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RMProductDescriptionView.swift; sourceTree = "<group>"; };
+		EA3C4FD123083529005DDEC8 /* RMViewWithDashedBorder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RMViewWithDashedBorder.swift; sourceTree = "<group>"; };
+		EA3C4FD323083EDD005DDEC8 /* RMAvailableBidsCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RMAvailableBidsCollectionViewController.swift; sourceTree = "<group>"; };
+		EA3C4FD523084DCF005DDEC8 /* RMItemValueCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RMItemValueCollectionViewCell.swift; sourceTree = "<group>"; };
 		EA4679A62305CA9300465FC1 /* RM_iOS_UI.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = RM_iOS_UI.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		EA4679A92305CA9300465FC1 /* RM_iOS_UI.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RM_iOS_UI.h; sourceTree = "<group>"; };
 		EA4679AA2305CA9300465FC1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -188,7 +209,6 @@
 		EA467A152305CCBD00465FC1 /* CocapodStarter.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = CocapodStarter.txt; sourceTree = "<group>"; };
 		EA467A172305CD3100465FC1 /* RM.iOS.Core.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = RM.iOS.Core.podspec; sourceTree = "<group>"; };
 		EA467A182305CD3100465FC1 /* RM.iOS.UI.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = RM.iOS.UI.podspec; sourceTree = "<group>"; };
-		EA467A1C2305CD8300465FC1 /* CustomView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -277,6 +297,8 @@
 			isa = PBXGroup;
 			children = (
 				EA3C4F7E2305DAE4005DDEC8 /* RMTextLabelCollectionViewCell.swift */,
+				EA3C4FBD23079023005DDEC8 /* RMProductCollectionViewCell.swift */,
+				EA3C4FD523084DCF005DDEC8 /* RMItemValueCollectionViewCell.swift */,
 			);
 			path = CollectionView;
 			sourceTree = "<group>";
@@ -363,6 +385,18 @@
 			path = CarthageFrameworks;
 			sourceTree = "<group>";
 		};
+		EA3C4FC42307F688005DDEC8 /* BiddingApp */ = {
+			isa = PBXGroup;
+			children = (
+				EA3C4FC52307F6AC005DDEC8 /* RMProductViewController.swift */,
+				EA3C4FC72307FDFB005DDEC8 /* RMCustomerProductViewController.swift */,
+				EA3C4FCB2308137E005DDEC8 /* RMCustomerProductInfoView.swift */,
+				EA3C4FCD230826B8005DDEC8 /* RMProductDescriptionView.swift */,
+				EA3C4FD323083EDD005DDEC8 /* RMAvailableBidsCollectionViewController.swift */,
+			);
+			path = BiddingApp;
+			sourceTree = "<group>";
+		};
 		EA46799C2305CA9300465FC1 = {
 			isa = PBXGroup;
 			children = (
@@ -425,6 +459,7 @@
 		EA4679C52305CAB900465FC1 /* Sample */ = {
 			isa = PBXGroup;
 			children = (
+				EA3C4FC42307F688005DDEC8 /* BiddingApp */,
 				EA3C4FA423071286005DDEC8 /* CollectionViews */,
 				EA4679C62305CAB900465FC1 /* AppDelegate.swift */,
 				EA4679C82305CAB900465FC1 /* ViewController.swift */,
@@ -479,7 +514,10 @@
 				EA3C4F722305DAD7005DDEC8 /* RMGradientView.swift */,
 				EA3C4F752305DAD7005DDEC8 /* RMICNLabel.swift */,
 				EA3C4F742305DAD7005DDEC8 /* RMShadowView.swift */,
-				EA467A1C2305CD8300465FC1 /* CustomView.swift */,
+				EA3C4FBF230794CD005DDEC8 /* RMBorderImageView.swift */,
+				EA3C4FC12307A8FA005DDEC8 /* RMShadowImageView.swift */,
+				EA3C4FC9230807C0005DDEC8 /* RMSubtitleLabel.swift */,
+				EA3C4FD123083529005DDEC8 /* RMViewWithDashedBorder.swift */,
 			);
 			path = CustomViews;
 			sourceTree = "<group>";
@@ -759,12 +797,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EA3C4FC22307A8FA005DDEC8 /* RMShadowImageView.swift in Sources */,
+				EA3C4FC0230794CD005DDEC8 /* RMBorderImageView.swift in Sources */,
+				EA3C4FD223083529005DDEC8 /* RMViewWithDashedBorder.swift in Sources */,
 				EA3C4F792305DAD7005DDEC8 /* RMICNLabel.swift in Sources */,
 				EA3C4F832305DAF2005DDEC8 /* KeyboardObservable.swift in Sources */,
 				EA3C4FA3230711AB005DDEC8 /* RMVerticalListCollectionViewController.swift in Sources */,
 				EA3C4F802305DAE4005DDEC8 /* RMTextLabelCollectionViewCell.swift in Sources */,
 				EA3C4F982305DB16005DDEC8 /* DrawerMenuHeaderView.swift in Sources */,
-				EA467A1D2305CD8300465FC1 /* CustomView.swift in Sources */,
 				EA3C4F9A2305DB16005DDEC8 /* DrawerMenuItemCell.swift in Sources */,
 				EA3C4F782305DAD7005DDEC8 /* RMShadowView.swift in Sources */,
 				EA3C4F972305DB16005DDEC8 /* DrawerViewController.swift in Sources */,
@@ -773,11 +813,14 @@
 				EA3C4F902305DB0E005DDEC8 /* UIView+Extensions.swift in Sources */,
 				EA3C4F772305DAD7005DDEC8 /* RMDataEntryView.swift in Sources */,
 				EA3C4F8B2305DB05005DDEC8 /* RMDatePickerControl.swift in Sources */,
+				EA3C4FD623084DCF005DDEC8 /* RMItemValueCollectionViewCell.swift in Sources */,
 				EA3C4F7F2305DAE4005DDEC8 /* RMCardTableViewCell.swift in Sources */,
 				EA3C4F862305DAFC005DDEC8 /* RMFormViewController.swift in Sources */,
 				EA3C4F8D2305DB05005DDEC8 /* RMDatePickerControlViewModel.swift in Sources */,
 				EA3C4F8C2305DB05005DDEC8 /* RMDatePickerCollectionViewCell.swift in Sources */,
+				EA3C4FCA230807C0005DDEC8 /* RMSubtitleLabel.swift in Sources */,
 				EA3C4F992305DB16005DDEC8 /* DrawerContent.swift in Sources */,
+				EA3C4FBE23079023005DDEC8 /* RMProductCollectionViewCell.swift in Sources */,
 				EA3C4F762305DAD7005DDEC8 /* RMGradientView.swift in Sources */,
 				EA3C4F9E2306F55C005DDEC8 /* RMCollectionViewController.swift in Sources */,
 			);
@@ -795,9 +838,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EA3C4FCC2308137E005DDEC8 /* RMCustomerProductInfoView.swift in Sources */,
 				EA3C4FA6230712AA005DDEC8 /* SampleVerticalListCollectionViewController.swift in Sources */,
 				EA4679C92305CAB900465FC1 /* ViewController.swift in Sources */,
+				EA3C4FCE230826B8005DDEC8 /* RMProductDescriptionView.swift in Sources */,
 				EA4679C72305CAB900465FC1 /* AppDelegate.swift in Sources */,
+				EA3C4FD423083EDD005DDEC8 /* RMAvailableBidsCollectionViewController.swift in Sources */,
+				EA3C4FC82307FDFB005DDEC8 /* RMCustomerProductViewController.swift in Sources */,
+				EA3C4FC62307F6AC005DDEC8 /* RMProductViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

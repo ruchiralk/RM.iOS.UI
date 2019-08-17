@@ -10,24 +10,34 @@ import UIKit
 
 open class RMCollectionViewController: UIViewController, RMInitializeView {
 
-    public var collectionView: UICollectionView = {
-        let collectionView = UICollectionView(frame: .zero)
-        return collectionView
-    }()
+    public var collectionView: UICollectionView
+    
+    open var lineSpacing: CGFloat {
+        return 10
+    }
     
     public var flowLayout: UICollectionViewLayout = {
         let flowLayout = UICollectionViewFlowLayout()
         return flowLayout
     }()
     
-    override open func viewDidLoad() {
-        super.viewDidLoad()
-        configureViewHierarchy()
-        configureLayout()
-        collectionView.collectionViewLayout = flowLayout
+    public override init(nibName nibNameOrNil: String?, bundle nibBundleOrNil: Bundle?) {
+        collectionView = UICollectionView(frame: .zero, collectionViewLayout: flowLayout)
+        super.init(nibName: nibNameOrNil, bundle: nibBundleOrNil)
     }
     
-    open func configureViewHierarchy() {
+    required public init?(coder aDecoder: NSCoder) {
+        fatalError("init(coder:) has not been implemented")
+    }
+    
+    override open func viewDidLoad() {
+        super.viewDidLoad()
+        configureItems()
+        configureLayout()
+        collectionView.delegate = self // set flow layout delegate
+    }
+    
+    open func configureItems() {
         self.view.addSubview(collectionView)
     }
     
@@ -49,10 +59,10 @@ extension  RMCollectionViewController : UICollectionViewDelegateFlowLayout {
     }
     
     public func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, insetForSectionAt section: Int) -> UIEdgeInsets {
-        return UIEdgeInsets.zero
+        return .zero
     }
     
     public func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, minimumLineSpacingForSectionAt section: Int) -> CGFloat {
-        return .zero
+        return lineSpacing
     }
 }

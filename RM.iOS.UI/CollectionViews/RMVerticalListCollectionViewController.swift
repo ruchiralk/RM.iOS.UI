@@ -10,8 +10,8 @@ import UIKit
 
 open class RMVerticalListCollectionViewController: RMCollectionViewController {
 
-    public var itemHeight: CGFloat {
-        return 80.0
+    open var itemHeight: CGFloat {
+        return 300.0
     }
     
     public var itemWidth: CGFloat {

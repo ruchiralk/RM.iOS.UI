@@ -10,7 +10,7 @@ import Foundation
 
 public protocol RMInitializeView {
     
-    func configureViewHierarchy()
+    func configureItems()
     
     func configureLayout()
 }
