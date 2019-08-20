@@ -32,6 +32,8 @@ class ViewController: UITableViewController {
             cell?.textLabel?.text = "Vertical Product List"
         case 1:
             cell?.textLabel?.text = "Customer Product View"
+        case 2:
+            cell?.textLabel?.text = "Merchent Product Info"
         default:
             break
         }
@@ -44,6 +46,8 @@ class ViewController: UITableViewController {
             self.navigationController?.pushViewController(SampleVerticalListCollectionViewController(), animated: true)
         case 1:
             self.navigationController?.pushViewController(RMCustomerProductViewController(), animated: true)
+        case 2:
+            self.navigationController?.pushViewController(RMMerchentProductViewController(), animated: true)
         default:
             tableView.deselectRow(at: indexPath, animated: true)
         }

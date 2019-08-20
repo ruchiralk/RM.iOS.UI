@@ -53,6 +53,10 @@
 		EA3C4FD223083529005DDEC8 /* RMViewWithDashedBorder.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA3C4FD123083529005DDEC8 /* RMViewWithDashedBorder.swift */; };
 		EA3C4FD423083EDD005DDEC8 /* RMAvailableBidsCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA3C4FD323083EDD005DDEC8 /* RMAvailableBidsCollectionViewController.swift */; };
 		EA3C4FD623084DCF005DDEC8 /* RMItemValueCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA3C4FD523084DCF005DDEC8 /* RMItemValueCollectionViewCell.swift */; };
+		EA3C4FD823087423005DDEC8 /* RMMerchentProductViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA3C4FD723087423005DDEC8 /* RMMerchentProductViewController.swift */; };
+		EA3C4FDA23087676005DDEC8 /* RMMerchentProductInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA3C4FD923087676005DDEC8 /* RMMerchentProductInfoView.swift */; };
+		EA3C4FDD2308F937005DDEC8 /* RMCardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA3C4FDC2308F937005DDEC8 /* RMCardViewController.swift */; };
+		EA3C4FDF23093654005DDEC8 /* RMPlaceBidCardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA3C4FDE23093654005DDEC8 /* RMPlaceBidCardViewController.swift */; };
 		EA4679B02305CA9300465FC1 /* RM_iOS_UI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA4679A62305CA9300465FC1 /* RM_iOS_UI.framework */; };
 		EA4679B52305CA9300465FC1 /* RM_iOS_UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA4679B42305CA9300465FC1 /* RM_iOS_UITests.swift */; };
 		EA4679B72305CA9300465FC1 /* RM_iOS_UI.h in Headers */ = {isa = PBXBuildFile; fileRef = EA4679A92305CA9300465FC1 /* RM_iOS_UI.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -181,6 +185,10 @@
 		EA3C4FD123083529005DDEC8 /* RMViewWithDashedBorder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RMViewWithDashedBorder.swift; sourceTree = "<group>"; };
 		EA3C4FD323083EDD005DDEC8 /* RMAvailableBidsCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RMAvailableBidsCollectionViewController.swift; sourceTree = "<group>"; };
 		EA3C4FD523084DCF005DDEC8 /* RMItemValueCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RMItemValueCollectionViewCell.swift; sourceTree = "<group>"; };
+		EA3C4FD723087423005DDEC8 /* RMMerchentProductViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RMMerchentProductViewController.swift; sourceTree = "<group>"; };
+		EA3C4FD923087676005DDEC8 /* RMMerchentProductInfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RMMerchentProductInfoView.swift; sourceTree = "<group>"; };
+		EA3C4FDC2308F937005DDEC8 /* RMCardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RMCardViewController.swift; sourceTree = "<group>"; };
+		EA3C4FDE23093654005DDEC8 /* RMPlaceBidCardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RMPlaceBidCardViewController.swift; sourceTree = "<group>"; };
 		EA4679A62305CA9300465FC1 /* RM_iOS_UI.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = RM_iOS_UI.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		EA4679A92305CA9300465FC1 /* RM_iOS_UI.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RM_iOS_UI.h; sourceTree = "<group>"; };
 		EA4679AA2305CA9300465FC1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -393,8 +401,19 @@
 				EA3C4FCB2308137E005DDEC8 /* RMCustomerProductInfoView.swift */,
 				EA3C4FCD230826B8005DDEC8 /* RMProductDescriptionView.swift */,
 				EA3C4FD323083EDD005DDEC8 /* RMAvailableBidsCollectionViewController.swift */,
+				EA3C4FD723087423005DDEC8 /* RMMerchentProductViewController.swift */,
+				EA3C4FD923087676005DDEC8 /* RMMerchentProductInfoView.swift */,
+				EA3C4FDE23093654005DDEC8 /* RMPlaceBidCardViewController.swift */,
 			);
 			path = BiddingApp;
+			sourceTree = "<group>";
+		};
+		EA3C4FDB2308F8F3005DDEC8 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				EA3C4FDC2308F937005DDEC8 /* RMCardViewController.swift */,
+			);
+			path = ViewControllers;
 			sourceTree = "<group>";
 		};
 		EA46799C2305CA9300465FC1 = {
@@ -431,6 +450,7 @@
 		EA4679A82305CA9300465FC1 /* RM.iOS.UI */ = {
 			isa = PBXGroup;
 			children = (
+				EA3C4FDB2308F8F3005DDEC8 /* ViewControllers */,
 				EA3C4FAB2307167C005DDEC8 /* CarthageFrameworks */,
 				EA3C4F9F2306F699005DDEC8 /* Protocols */,
 				EA3C4F9C2306E532005DDEC8 /* CollectionViews */,
@@ -808,6 +828,7 @@
 				EA3C4F9A2305DB16005DDEC8 /* DrawerMenuItemCell.swift in Sources */,
 				EA3C4F782305DAD7005DDEC8 /* RMShadowView.swift in Sources */,
 				EA3C4F972305DB16005DDEC8 /* DrawerViewController.swift in Sources */,
+				EA3C4FDD2308F937005DDEC8 /* RMCardViewController.swift in Sources */,
 				EA3C4F9B2305DB16005DDEC8 /* DrawerMenuViewController.swift in Sources */,
 				EA3C4FA12306F6B8005DDEC8 /* RMInitializeView.swift in Sources */,
 				EA3C4F902305DB0E005DDEC8 /* UIView+Extensions.swift in Sources */,
@@ -843,9 +864,12 @@
 				EA4679C92305CAB900465FC1 /* ViewController.swift in Sources */,
 				EA3C4FCE230826B8005DDEC8 /* RMProductDescriptionView.swift in Sources */,
 				EA4679C72305CAB900465FC1 /* AppDelegate.swift in Sources */,
+				EA3C4FDF23093654005DDEC8 /* RMPlaceBidCardViewController.swift in Sources */,
 				EA3C4FD423083EDD005DDEC8 /* RMAvailableBidsCollectionViewController.swift in Sources */,
 				EA3C4FC82307FDFB005DDEC8 /* RMCustomerProductViewController.swift in Sources */,
+				EA3C4FDA23087676005DDEC8 /* RMMerchentProductInfoView.swift in Sources */,
 				EA3C4FC62307F6AC005DDEC8 /* RMProductViewController.swift in Sources */,
+				EA3C4FD823087423005DDEC8 /* RMMerchentProductViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
