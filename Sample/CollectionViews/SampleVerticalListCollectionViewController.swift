@@ -22,6 +22,7 @@ class SampleVerticalListCollectionViewController: RMVerticalListCollectionViewCo
         self.view.backgroundColor = UIColor.yellow
         self.collectionView.register(RMProductCollectionViewCell.self, forCellWithReuseIdentifier: cellReuseIdentifier)
         self.collectionView.dataSource = self
+        self.collectionView.backgroundColor = UIColor.white
     }
 
 }
