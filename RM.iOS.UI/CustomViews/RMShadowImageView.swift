@@ -16,7 +16,7 @@ open class RMShadowImageView: UIView, RMInitializeView {
     private let offset: CGSize
     private let opacity: Float
     
-    private let imageView: UIImageView = {
+    public let imageView: UIImageView = {
         let imageView = UIImageView()
         imageView.contentMode = ContentMode.scaleAspectFill
         imageView.clipsToBounds = true
