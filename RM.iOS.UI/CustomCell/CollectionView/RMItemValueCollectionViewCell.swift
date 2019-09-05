@@ -12,7 +12,7 @@ open class RMItemValueCollectionViewCell: UICollectionViewCell, RMViewWithDashed
     
     let dashedBorder: CAShapeLayer = CAShapeLayer()
     
-    override init(frame: CGRect) {
+    public override init(frame: CGRect) {
         super.init(frame: frame)
         initializeDashedBorder()
         self.backgroundColor = .white

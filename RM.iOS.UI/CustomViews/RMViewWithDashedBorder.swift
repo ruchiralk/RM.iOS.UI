@@ -14,7 +14,7 @@ protocol RMViewWithDashedBorder where Self : UIView {
 
 extension RMViewWithDashedBorder {
 
-    var borderColor: UIColor {
+    public var borderColor: UIColor {
         return UIColor(red: 210.0/255, green: 210.0/255, blue: 210.0/255, alpha: 1.0)
     }
     

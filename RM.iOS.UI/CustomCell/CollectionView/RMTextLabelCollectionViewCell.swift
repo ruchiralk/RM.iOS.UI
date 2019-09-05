@@ -11,27 +11,27 @@ import SnapKit
 
 class RMTextLabelCollectionViewCell: UICollectionViewCell {
     
-    var textLabel: UILabel?
+    public var textLabel: UILabel?
     
-    override init(frame: CGRect) {
+    public override init(frame: CGRect) {
         super.init(frame: frame)
         initialize()
         configureLayout()
     }
     
-    required init?(coder aDecoder: NSCoder) {
+    public required init?(coder aDecoder: NSCoder) {
         super.init(coder: aDecoder)
         initialize()
         configureLayout()
     }
     
-    func initialize(){
+    open func initialize(){
         textLabel = UILabel()
         textLabel?.textAlignment = .center
         contentView.addSubview(textLabel!)
     }
     
-    func configureLayout(){
+    open func configureLayout(){
         textLabel?.snp.makeConstraints({ (make) in
             make.leading.equalToSuperview().inset(5)
             make.trailing.equalToSuperview().inset(5)
