@@ -10,7 +10,7 @@ import UIKit
 
 open class DrawerViewController : UIViewController {
     
-    public let drawerMenuMaxWidth = 320.0 // Maximum width used for Drawer Menu
+    public var drawerMenuMaxWidth = 320.0 // Maximum width used for Drawer Menu
     private let menuViewController: DrawerMenuViewController // side menu
     private let contentViewController: DrawerContent // main content
     private var isMenuExpaned: Bool // track menu expaned or not
