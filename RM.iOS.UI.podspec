@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "RM.iOS.UI"
-  spec.version      = "0.0.20"
+  spec.version      = "0.0.21"
   spec.summary      = "Reusable UIKit Components."
 
   # This description is used to generate tags and improve search results.

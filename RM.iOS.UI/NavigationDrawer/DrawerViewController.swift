@@ -11,8 +11,8 @@ import UIKit
 open class DrawerViewController : UIViewController {
     
     public var drawerMenuMaxWidth = 320.0 // Maximum width used for Drawer Menu
-    private let menuViewController: DrawerMenuViewController // side menu
-    private let contentViewController: DrawerContent // main content
+    public let menuViewController: DrawerMenuViewController // side menu
+    public let contentViewController: DrawerContent // main content
     private var isMenuExpaned: Bool // track menu expaned or not
     private var overlayView: UIView // when menu expaned show overlay over main content
     open override var prefersStatusBarHidden: Bool {
