@@ -9,7 +9,7 @@
 import UIKit
 import SnapKit
 
-class RMShadowView: UIView {
+open class RMShadowView: UIView {
 
     private init(radius: CGFloat, color: UIColor, offset: CGSize,opacity: Float, shouldRasterize: Bool) {
         super.init(frame: .zero)
@@ -22,15 +22,15 @@ class RMShadowView: UIView {
         layer.rasterizationScale = UIScreen.main.scale
     }
     
-    override func layoutSubviews() {
+    override open func layoutSubviews() {
         layer.shadowPath = UIBezierPath.init(rect: self.bounds).cgPath
     }
     
-    required init?(coder aDecoder: NSCoder) {
+    required public init?(coder aDecoder: NSCoder) {
         fatalError("init(coder:) has not been implemented")
     }
     
-    static func addShadow(toView parent: UIView, radius: CGFloat, color: UIColor, offset: CGSize,opacity: Float, shouldRasterize: Bool = true){
+    public static func addShadow(toView parent: UIView, radius: CGFloat, color: UIColor, offset: CGSize,opacity: Float, shouldRasterize: Bool = true){
         let view = RMShadowView(radius: radius, color: color, offset: offset, opacity: opacity, shouldRasterize: shouldRasterize)
         parent.addSubview(view)
         parent.sendSubviewToBack(view)
