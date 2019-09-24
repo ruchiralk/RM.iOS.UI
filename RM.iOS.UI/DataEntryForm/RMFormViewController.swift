@@ -80,6 +80,15 @@ extension RMFormViewController : UITextFieldDelegate {
 extension RMFormViewController : UITextViewDelegate {
     public func textViewDidBeginEditing(_ textView: UITextView) {
         formScrollView.scrollRectToVisible(textView.frame, animated: true)
+        if textView is RMFormTextView {
+            (textView as? RMFormTextView)?.textViewDidBeginEditing()
+        }
+    }
+    
+    public func textViewDidEndEditing(_ textView: UITextView) {
+        if textView is RMFormTextView {
+            (textView as? RMFormTextView)?.textViewDidBeginEditing()
+        }
     }
 }
 

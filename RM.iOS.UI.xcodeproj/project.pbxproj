@@ -57,6 +57,7 @@
 		EA3C4FDA23087676005DDEC8 /* RMMerchentProductInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA3C4FD923087676005DDEC8 /* RMMerchentProductInfoView.swift */; };
 		EA3C4FDD2308F937005DDEC8 /* RMCardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA3C4FDC2308F937005DDEC8 /* RMCardViewController.swift */; };
 		EA3C4FDF23093654005DDEC8 /* RMPlaceBidCardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA3C4FDE23093654005DDEC8 /* RMPlaceBidCardViewController.swift */; };
+		EA40C6DE233AA4670024E58F /* RMFormTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA40C6DD233AA4670024E58F /* RMFormTextView.swift */; };
 		EA4679B02305CA9300465FC1 /* RM_iOS_UI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA4679A62305CA9300465FC1 /* RM_iOS_UI.framework */; };
 		EA4679B52305CA9300465FC1 /* RM_iOS_UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA4679B42305CA9300465FC1 /* RM_iOS_UITests.swift */; };
 		EA4679B72305CA9300465FC1 /* RM_iOS_UI.h in Headers */ = {isa = PBXBuildFile; fileRef = EA4679A92305CA9300465FC1 /* RM_iOS_UI.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -189,6 +190,7 @@
 		EA3C4FD923087676005DDEC8 /* RMMerchentProductInfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RMMerchentProductInfoView.swift; sourceTree = "<group>"; };
 		EA3C4FDC2308F937005DDEC8 /* RMCardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RMCardViewController.swift; sourceTree = "<group>"; };
 		EA3C4FDE23093654005DDEC8 /* RMPlaceBidCardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RMPlaceBidCardViewController.swift; sourceTree = "<group>"; };
+		EA40C6DD233AA4670024E58F /* RMFormTextView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RMFormTextView.swift; sourceTree = "<group>"; };
 		EA4679A62305CA9300465FC1 /* RM_iOS_UI.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = RM_iOS_UI.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		EA4679A92305CA9300465FC1 /* RM_iOS_UI.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RM_iOS_UI.h; sourceTree = "<group>"; };
 		EA4679AA2305CA9300465FC1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -530,6 +532,7 @@
 		EA467A1B2305CD6200465FC1 /* CustomViews */ = {
 			isa = PBXGroup;
 			children = (
+				EA40C6DD233AA4670024E58F /* RMFormTextView.swift */,
 				EA3C4F732305DAD7005DDEC8 /* RMDataEntryView.swift */,
 				EA3C4F722305DAD7005DDEC8 /* RMGradientView.swift */,
 				EA3C4F752305DAD7005DDEC8 /* RMICNLabel.swift */,
@@ -819,6 +822,7 @@
 			files = (
 				EA3C4FC22307A8FA005DDEC8 /* RMShadowImageView.swift in Sources */,
 				EA3C4FC0230794CD005DDEC8 /* RMBorderImageView.swift in Sources */,
+				EA40C6DE233AA4670024E58F /* RMFormTextView.swift in Sources */,
 				EA3C4FD223083529005DDEC8 /* RMViewWithDashedBorder.swift in Sources */,
 				EA3C4F792305DAD7005DDEC8 /* RMICNLabel.swift in Sources */,
 				EA3C4F832305DAF2005DDEC8 /* KeyboardObservable.swift in Sources */,
