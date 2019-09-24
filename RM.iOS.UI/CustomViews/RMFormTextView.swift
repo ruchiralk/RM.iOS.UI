@@ -9,32 +9,16 @@
 import UIKit
 
 open class RMFormTextView: UITextView {
-
-    var placeholder: String? {
+    
+    public var placeholder: String? {
         didSet {
-            self.defaultTextColor = self.textColor
+            self.textColor = placeholderTextColor
             self.text = placeholder
         }
     }
     
-    override open var text: String! {
-        didSet {
-            if text != placeholder {
-                self.textColor = defaultTextColor
-            }else{
-                self.textColor = placeholderTextColor
-            }
-        }
-    }
-    
-    override open var textColor: UIColor? {
-        didSet {
-            self.defaultTextColor = textColor
-        }
-    }
-    
-    private var defaultTextColor: UIColor? = UIColor.black
-    var placeholderTextColor = UIColor.lightGray
+    public var defaultTextColor = UIColor.black
+    public var placeholderTextColor = UIColor.lightGray
     
     override init(frame: CGRect, textContainer: NSTextContainer?) {
         super.init(frame: frame, textContainer: textContainer)

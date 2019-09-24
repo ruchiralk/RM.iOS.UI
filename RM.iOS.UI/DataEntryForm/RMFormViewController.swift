@@ -87,7 +87,7 @@ extension RMFormViewController : UITextViewDelegate {
     
     public func textViewDidEndEditing(_ textView: UITextView) {
         if textView is RMFormTextView {
-            (textView as? RMFormTextView)?.textViewDidBeginEditing()
+            (textView as? RMFormTextView)?.textViewDidEndEditing()
         }
     }
 }
