@@ -8,7 +8,7 @@
 
 import UIKit
 
-class RMFormTextView: UITextView {
+open class RMFormTextView: UITextView {
 
     var placeholder: String? {
         didSet {
@@ -17,7 +17,7 @@ class RMFormTextView: UITextView {
         }
     }
     
-    override var text: String! {
+    override open var text: String! {
         didSet {
             if text != placeholder {
                 self.textColor = defaultTextColor
@@ -27,7 +27,7 @@ class RMFormTextView: UITextView {
         }
     }
     
-    override var textColor: UIColor? {
+    override open var textColor: UIColor? {
         didSet {
             self.defaultTextColor = textColor
         }
@@ -41,7 +41,7 @@ class RMFormTextView: UITextView {
         self.font = UIFont.systemFont(ofSize: 16.0, weight: .light)
     }
     
-    required init?(coder aDecoder: NSCoder) {
+    required public init?(coder aDecoder: NSCoder) {
         fatalError("init(coder:) has not been implemented")
     }
     
